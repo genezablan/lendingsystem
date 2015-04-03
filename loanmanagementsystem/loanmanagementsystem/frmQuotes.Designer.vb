@@ -80,7 +80,7 @@ Partial Class frmQuotes
         Me.pnlPersonal.Controls.Add(Me.TextBox1)
         Me.pnlPersonal.Controls.Add(Me.Label5)
         Me.pnlPersonal.Controls.Add(Me.Label4)
-        Me.pnlPersonal.Location = New System.Drawing.Point(77, 12)
+        Me.pnlPersonal.Location = New System.Drawing.Point(12, 12)
         Me.pnlPersonal.Name = "pnlPersonal"
         Me.pnlPersonal.Size = New System.Drawing.Size(739, 217)
         Me.pnlPersonal.TabIndex = 3

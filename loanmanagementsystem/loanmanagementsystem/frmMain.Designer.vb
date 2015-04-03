@@ -22,7 +22,6 @@ Partial Class frmMain
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Panel3 = New System.Windows.Forms.Panel()
         Me.pnlLoanDetails = New System.Windows.Forms.Panel()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
@@ -52,42 +51,31 @@ Partial Class frmMain
         Me.TextBox12 = New System.Windows.Forms.TextBox()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         Me.pnlPersonal = New System.Windows.Forms.Panel()
-        Me.Panel3.SuspendLayout()
+        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.pnlLoanDetails.SuspendLayout()
         Me.pnlPersonal.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Panel3
-        '
-        Me.Panel3.Controls.Add(Me.pnlLoanDetails)
-        Me.Panel3.Controls.Add(Me.pnlPersonal)
-        Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel3.Location = New System.Drawing.Point(0, 0)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(904, 593)
-        Me.Panel3.TabIndex = 23
-        '
         'pnlLoanDetails
         '
-        Me.pnlLoanDetails.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
+        Me.pnlLoanDetails.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.pnlLoanDetails.BackColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer))
         Me.pnlLoanDetails.Controls.Add(Me.Button8)
         Me.pnlLoanDetails.Controls.Add(Me.Button7)
@@ -117,10 +105,10 @@ Partial Class frmMain
         Me.pnlLoanDetails.Controls.Add(Me.TextBox12)
         Me.pnlLoanDetails.Controls.Add(Me.Label20)
         Me.pnlLoanDetails.Controls.Add(Me.Label21)
-        Me.pnlLoanDetails.Location = New System.Drawing.Point(83, 202)
+        Me.pnlLoanDetails.Location = New System.Drawing.Point(12, 202)
         Me.pnlLoanDetails.Name = "pnlLoanDetails"
         Me.pnlLoanDetails.Size = New System.Drawing.Size(739, 378)
-        Me.pnlLoanDetails.TabIndex = 22
+        Me.pnlLoanDetails.TabIndex = 24
         '
         'Button8
         '
@@ -385,165 +373,9 @@ Partial Class frmMain
         Me.Label21.Text = "Loan Details"
         Me.Label21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Label4
-        '
-        Me.Label4.BackColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.Label4.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(0, 0)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(739, 27)
-        Me.Label4.TabIndex = 0
-        Me.Label4.Text = "Personal Information"
-        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(20, 42)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(63, 13)
-        Me.Label5.TabIndex = 1
-        Me.Label5.Text = "First Name"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(103, 33)
-        Me.TextBox1.MaxLength = 255
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(204, 20)
-        Me.TextBox1.TabIndex = 2
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(20, 70)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(78, 13)
-        Me.Label6.TabIndex = 3
-        Me.Label6.Text = "Middle Name"
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(103, 61)
-        Me.TextBox2.MaxLength = 255
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(204, 20)
-        Me.TextBox2.TabIndex = 4
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(20, 100)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(62, 13)
-        Me.Label8.TabIndex = 5
-        Me.Label8.Text = "Last Name"
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Location = New System.Drawing.Point(103, 91)
-        Me.TextBox4.MaxLength = 255
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(204, 20)
-        Me.TextBox4.TabIndex = 6
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(19, 128)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(44, 13)
-        Me.Label9.TabIndex = 9
-        Me.Label9.Text = "Mobile"
-        '
-        'TextBox5
-        '
-        Me.TextBox5.Location = New System.Drawing.Point(103, 119)
-        Me.TextBox5.MaxLength = 20
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(204, 20)
-        Me.TextBox5.TabIndex = 10
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(20, 156)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(183, 13)
-        Me.Label10.TabIndex = 11
-        Me.Label10.Text = "Source of funds |Bank Account * |"
-        '
-        'TextBox6
-        '
-        Me.TextBox6.Location = New System.Drawing.Point(209, 147)
-        Me.TextBox6.MaxLength = 255
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(188, 20)
-        Me.TextBox6.TabIndex = 12
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(366, 42)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(55, 13)
-        Me.Label11.TabIndex = 13
-        Me.Label11.Text = "Birthdate"
-        '
-        'DateTimePicker1
-        '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(427, 33)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(266, 20)
-        Me.DateTimePicker1.TabIndex = 15
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(367, 70)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(35, 13)
-        Me.Label7.TabIndex = 16
-        Me.Label7.Text = "Email"
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(427, 61)
-        Me.TextBox3.MaxLength = 255
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(243, 20)
-        Me.TextBox3.TabIndex = 17
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(367, 94)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(83, 13)
-        Me.Label12.TabIndex = 18
-        Me.Label12.Text = "Home Address"
-        '
-        'RichTextBox1
-        '
-        Me.RichTextBox1.Location = New System.Drawing.Point(466, 89)
-        Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(227, 86)
-        Me.RichTextBox1.TabIndex = 19
-        Me.RichTextBox1.Text = ""
-        '
         'pnlPersonal
         '
-        Me.pnlPersonal.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
+        Me.pnlPersonal.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.pnlPersonal.BackColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer))
         Me.pnlPersonal.Controls.Add(Me.RichTextBox1)
         Me.pnlPersonal.Controls.Add(Me.Label12)
@@ -562,10 +394,166 @@ Partial Class frmMain
         Me.pnlPersonal.Controls.Add(Me.TextBox1)
         Me.pnlPersonal.Controls.Add(Me.Label5)
         Me.pnlPersonal.Controls.Add(Me.Label4)
-        Me.pnlPersonal.Location = New System.Drawing.Point(83, 12)
+        Me.pnlPersonal.Location = New System.Drawing.Point(12, 12)
         Me.pnlPersonal.Name = "pnlPersonal"
         Me.pnlPersonal.Size = New System.Drawing.Size(739, 184)
-        Me.pnlPersonal.TabIndex = 21
+        Me.pnlPersonal.TabIndex = 23
+        '
+        'RichTextBox1
+        '
+        Me.RichTextBox1.Location = New System.Drawing.Point(466, 89)
+        Me.RichTextBox1.Name = "RichTextBox1"
+        Me.RichTextBox1.Size = New System.Drawing.Size(227, 86)
+        Me.RichTextBox1.TabIndex = 19
+        Me.RichTextBox1.Text = ""
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(367, 94)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(83, 13)
+        Me.Label12.TabIndex = 18
+        Me.Label12.Text = "Home Address"
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(427, 61)
+        Me.TextBox3.MaxLength = 255
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(243, 20)
+        Me.TextBox3.TabIndex = 17
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(367, 70)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(35, 13)
+        Me.Label7.TabIndex = 16
+        Me.Label7.Text = "Email"
+        '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.Location = New System.Drawing.Point(427, 33)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(266, 20)
+        Me.DateTimePicker1.TabIndex = 15
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(366, 42)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(55, 13)
+        Me.Label11.TabIndex = 13
+        Me.Label11.Text = "Birthdate"
+        '
+        'TextBox6
+        '
+        Me.TextBox6.Location = New System.Drawing.Point(209, 147)
+        Me.TextBox6.MaxLength = 255
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(188, 20)
+        Me.TextBox6.TabIndex = 12
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(20, 156)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(183, 13)
+        Me.Label10.TabIndex = 11
+        Me.Label10.Text = "Source of funds |Bank Account * |"
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Location = New System.Drawing.Point(103, 119)
+        Me.TextBox5.MaxLength = 20
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(204, 20)
+        Me.TextBox5.TabIndex = 10
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(19, 128)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(44, 13)
+        Me.Label9.TabIndex = 9
+        Me.Label9.Text = "Mobile"
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(103, 91)
+        Me.TextBox4.MaxLength = 255
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(204, 20)
+        Me.TextBox4.TabIndex = 6
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(20, 100)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(62, 13)
+        Me.Label8.TabIndex = 5
+        Me.Label8.Text = "Last Name"
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(103, 61)
+        Me.TextBox2.MaxLength = 255
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(204, 20)
+        Me.TextBox2.TabIndex = 4
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(20, 70)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(78, 13)
+        Me.Label6.TabIndex = 3
+        Me.Label6.Text = "Middle Name"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(103, 33)
+        Me.TextBox1.MaxLength = 255
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(204, 20)
+        Me.TextBox1.TabIndex = 2
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(20, 42)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(63, 13)
+        Me.Label5.TabIndex = 1
+        Me.Label5.Text = "First Name"
+        '
+        'Label4
+        '
+        Me.Label4.BackColor = System.Drawing.Color.FromArgb(CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
+        Me.Label4.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.White
+        Me.Label4.Location = New System.Drawing.Point(0, 0)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(739, 27)
+        Me.Label4.TabIndex = 0
+        Me.Label4.Text = "Personal Information"
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'frmMain
         '
@@ -573,12 +561,12 @@ Partial Class frmMain
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(904, 593)
-        Me.Controls.Add(Me.Panel3)
+        Me.Controls.Add(Me.pnlLoanDetails)
+        Me.Controls.Add(Me.pnlPersonal)
+        Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frmMain"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "frmHome2"
-        Me.Panel3.ResumeLayout(False)
         Me.pnlLoanDetails.ResumeLayout(False)
         Me.pnlLoanDetails.PerformLayout()
         Me.pnlPersonal.ResumeLayout(False)
@@ -586,7 +574,6 @@ Partial Class frmMain
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents Panel3 As System.Windows.Forms.Panel
     Friend WithEvents pnlLoanDetails As System.Windows.Forms.Panel
     Friend WithEvents Button8 As System.Windows.Forms.Button
     Friend WithEvents Button7 As System.Windows.Forms.Button

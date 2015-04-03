@@ -83,7 +83,7 @@ Partial Class frmViewCustomer
         '
         'pnlPersonal
         '
-        Me.pnlPersonal.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.pnlPersonal.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.pnlPersonal.BackColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer))
         Me.pnlPersonal.Controls.Add(Me.RichTextBox1)
         Me.pnlPersonal.Controls.Add(Me.Label12)
@@ -265,7 +265,7 @@ Partial Class frmViewCustomer
         '
         'pnlLoanDetails
         '
-        Me.pnlLoanDetails.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.pnlLoanDetails.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.pnlLoanDetails.BackColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer))
         Me.pnlLoanDetails.Controls.Add(Me.RichTextBox2)
         Me.pnlLoanDetails.Controls.Add(Me.Label25)
@@ -513,6 +513,8 @@ Partial Class frmViewCustomer
         Me.DataGridView1.AllowUserToDeleteRows = False
         DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer))
         Me.DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        Me.DataGridView1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DataGridView1.BackgroundColor = System.Drawing.Color.White
         Me.DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None
         Me.DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
@@ -526,7 +528,6 @@ Partial Class frmViewCustomer
         Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column7, Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6})
-        Me.DataGridView1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DataGridView1.EnableHeadersVisualStyles = False
         Me.DataGridView1.Location = New System.Drawing.Point(0, 27)
         Me.DataGridView1.Name = "DataGridView1"
@@ -590,7 +591,7 @@ Partial Class frmViewCustomer
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(904, 788)
+        Me.ClientSize = New System.Drawing.Size(904, 749)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.pnlLoanDetails)
         Me.Controls.Add(Me.pnlPersonal)
