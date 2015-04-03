@@ -58,7 +58,7 @@ Public Class frmHome
         Panel2.BackgroundImage = Image.FromFile(ICONS_URL & "sidebarCustomer.png")
         frmViewCustomer.AutoScroll = True
 
-        viewForm(frmViewCustomer)
+        viewForm(frmCustomers)
 
     End Sub
 
