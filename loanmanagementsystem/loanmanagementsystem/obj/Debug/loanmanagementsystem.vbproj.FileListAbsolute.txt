@@ -1,0 +1,13 @@
+C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\bin\Debug\loanmanagementsystem.exe.config
+C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\bin\Debug\loanmanagementsystem.exe
+C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\bin\Debug\loanmanagementsystem.pdb
+C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\bin\Debug\loanmanagementsystem.xml
+C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Debug\loanmanagementsystem.Resources.resources
+C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Debug\loanmanagementsystem.vbproj.GenerateResource.Cache
+C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Debug\loanmanagementsystem.exe
+C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Debug\loanmanagementsystem.xml
+C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Debug\loanmanagementsystem.pdb
+C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Debug\loanmanagementsystem.frmHome.resources
+C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Debug\loanmanagementsystem.frmCustomer.resources
+C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Debug\loanmanagementsystem.frmAddCustomer.resources
+C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Debug\loanmanagementsystem.frmQuote.resources
