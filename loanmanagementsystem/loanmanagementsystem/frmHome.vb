@@ -1,8 +1,17 @@
-﻿Public Class frmHome
+﻿Imports loanmanagementsystem.Models.DBConnection
+Public Class frmHome
 
+    Private Sub viewForm(ByVal myForm As Form)
+        
+        myForm.TopLevel = False
+        myForm.Dock = DockStyle.Fill
+        Me.SplitContainer2.Panel2.Controls.Clear()
+        Me.SplitContainer2.Panel2.Controls.Add(myForm)
+        myForm.Show()
+    End Sub
     Private Sub PictureBox2_Click_1(sender As Object, e As EventArgs) Handles PictureBox2.Click
         If Me.WindowState = FormWindowState.Normal Then
-            Me.WindowState = FormWindowState.Maximized            
+            Me.WindowState = FormWindowState.Maximized
         Else
             Me.WindowState = FormWindowState.Normal
         End If
@@ -21,20 +30,6 @@
         Me.WindowState = FormWindowState.Minimized
     End Sub
 
-    Private Sub TextBox6_TextChanged(sender As Object, e As EventArgs) Handles TextBox6.TextChanged
-
-    End Sub
-
-    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
-
-    End Sub
-
-    Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
-        Me.Hide()
-        frmCustomer.Show()
-
-    End Sub
-
     Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
         Application.Exit()
 
@@ -51,8 +46,26 @@
 
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Me.Hide()
-        frmQuote.Show()
+    Private Sub frmHome_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Connect()
+
+
+        viewForm(frmMain)
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Panel2.BackgroundImage = Image.FromFile(ICONS_URL & "sidebarCustomer.png")
+        viewForm(frmCustomers)
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Panel2.BackgroundImage = Image.FromFile(ICONS_URL & "sidebar.png")
+        viewForm(frmMain)
+    End Sub
+
+    Private Sub Button3_Click_1(sender As Object, e As EventArgs) Handles Button3.Click
+        Panel2.BackgroundImage = Image.FromFile(ICONS_URL & "sidebarQuote.png")
+        viewForm(frmQuotes)
     End Sub
 End Class

@@ -8,6 +8,7 @@ C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Deb
 C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Debug\loanmanagementsystem.xml
 C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Debug\loanmanagementsystem.pdb
 C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Debug\loanmanagementsystem.frmHome.resources
-C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Debug\loanmanagementsystem.frmCustomer.resources
 C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Debug\loanmanagementsystem.frmAddCustomer.resources
-C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Debug\loanmanagementsystem.frmQuote.resources
+C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Debug\loanmanagementsystem.frmCustomers.resources
+C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Debug\loanmanagementsystem.frmQuotes.resources
+C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Debug\loanmanagementsystem.frmMain.resources

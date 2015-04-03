@@ -1,0 +1,1 @@
+Data Source = MORRIS;Initial Catalog = lendingsystem; user id = morris014; password = 7423346
