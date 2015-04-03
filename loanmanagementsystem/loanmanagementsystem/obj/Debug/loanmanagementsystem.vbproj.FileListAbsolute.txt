@@ -12,3 +12,4 @@ C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Deb
 C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Debug\loanmanagementsystem.frmCustomers.resources
 C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Debug\loanmanagementsystem.frmQuotes.resources
 C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Debug\loanmanagementsystem.frmMain.resources
+C:\Users\Morris_Gaming\Desktop\loanmanagementsystem\loanmanagementsystem\obj\Debug\loanmanagementsystem.frmViewCustomer.resources

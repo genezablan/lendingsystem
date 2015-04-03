@@ -47,15 +47,15 @@ Public Class frmHome
     End Sub
 
     Private Sub frmHome_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Connect()
-
-
+        'Connect()
         viewForm(frmMain)
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Panel2.BackgroundImage = Image.FromFile(ICONS_URL & "sidebarCustomer.png")
-        viewForm(frmCustomers)
+        frmViewCustomer.AutoScroll = True
+
+        viewForm(frmViewCustomer)
 
     End Sub
 
